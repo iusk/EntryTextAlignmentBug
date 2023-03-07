@@ -40,13 +40,15 @@
                 BindingContext="{x:Reference mainPage}"
                 IsVisible="{Binding IsVisible}"
                 HeightRequest="48"
-                Placeholder="Placeholder" />
+                Placeholder="Placeholder"
+                VerticalTextAlignment="Center" />
 
             <Entry
                 BindingContext="{x:Reference mainPage}"
                 IsVisible="{Binding IsVisible2}"
                 HeightRequest="48"
-                Placeholder="Placeholder2" />
+                Placeholder="Placeholder2"
+                VerticalTextAlignment="Center" />
 
         </VerticalStackLayout>
     </ScrollView>
